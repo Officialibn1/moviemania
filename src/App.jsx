@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import SearchIcon from './search.svg';
 import Movie from './Movie';
+import { BsSearch } from "react-icons/bs";
 
 // 18e7edc1
 
@@ -38,8 +38,9 @@ const App = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
 
-          <img 
-            src={SearchIcon} 
+          
+          <BsSearch
+            className="searchIcon"
             alt="search"
             onClick={() => searchMovies(search)}
           />

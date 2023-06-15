@@ -68,10 +68,11 @@ h1 {
   background: #1f2123;
 }
 
-.search img {
+.searchIcon {
   width: 35px;
   height: 35px;
   cursor: pointer;
+  color: rgba(249, 211, 180, 1);
 }
 
 /* .search button {
