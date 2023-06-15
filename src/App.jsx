@@ -5,7 +5,7 @@ import { BsSearch } from "react-icons/bs";
 
 // 18e7edc1
 
-const API_URL = 'http://www.omdbapi.com?apikey=18e7edc1'
+const API_URL = 'https://www.omdbapi.com?apikey=18e7edc1'
 
 const App = () => {
   const [movies, setMovies] = useState([]);
