@@ -61,6 +61,9 @@ const App = () => {
           )
         }
       </div>  
+      <footer>
+        &copy; Movie Search site developed by <a href="https://github.com/Officialibn1">ibn</a> using the OMDB API.
+      </footer>
     </>
 
   )
